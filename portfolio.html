@@ -13,114 +13,167 @@
 </head>
 <body>
         <!-- header -->
-    <header>
-        <a href="./index.html" class="logo link">Web<span class="accent1">Studio</span></a>
-            <nav>
-                <ul class="site-nav">
-                    <li><a href="./index.html" class="nav-studio link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-portfolio link">Портфолио</a></li>
-                    <li><a href="" class="nav-contact link">Контакты</a></li>
+    <header class="header">
+        <div class="container main-nav">
+            <a href="./index.html" class="logo-head link">Web<span class="accent1">Studio</span></a>
+            <nav class="container ">
+                <ul class="header-list list">
+                    <li class="header-item"><a href="" class="nav-studio link">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="nav-portfolio link">Портфолио</a></li>
+                    <li class="header-item"><a href="" class="nav-contact link">Контакты</a></li>
                 </ul>
             </nav>
-                <ul>
-                    <li>
+            <div class="header-connect">
+                <ul class="contact-list">
+                    <li class="contact-item">
                         <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
                     </li>
-                    <li>
+                    <li class="contact-item">
                         <a href="tel:+380961111111" class="tel link">+38 096 111 11 11</a>
                     </li>
                 </ul>
+            </div>
+        </div>
     </header>
+
         <!-- Section title -->
        
     <main>
-        <ul class="button-list">
-            <li><button type="button" class="button-all button">Все</button></li>
-            <li><button type="button" class="all-web button">Веб-сайты</button></li>
-            <li><button type="button" class="apps button">Приложения</button></li>
-            <li><button type="button" class="design button">Дизайн</button></li>
-            <li><button type="button" class="marketing button">Маркетинг</button></li>
-        </ul>
-        <h1>Ссылки на страницы</h1>
-        <ul>
-            <li>
-                <a>
-                    <img src="./images2/web-site1.jpg" alt="страница сайта" width="370" height="294" />
-                    <h2 class="main-title">Технокряк</h2>
-                    <p class="main-work">Веб-сайт</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/design1.jpg" alt="игра баскетбол" width="370" height="294" />
-                    <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="main-work">Дизайн</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/app1.jpg" alt="лого ресторана" width="370" height="294" />
-                    <h2 class="main-title">Ресторан Seafood</h2>
-                    <p class="main-work">Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/marketing1.jpg" alt="наушники" width="370" height="294" />
-                    <h2 class="main-title">Проект Prime</h2>
-                    <p class="main-work">Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/app2.jpg" alt="две коробки" width="370" height="294" />
-                    <h2 class="main-title">Проект Boxes</h2>
-                    <p class="main-work">Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/web-site2.jpg" alt="монитор" width="370" height="294" />
-                    <h2 class="main-title">Inspiration has no Borders</h2>
-                    <p class="main-work">Веб-сайт</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/design2.jpg" alt="журнал" width="370" height="294" />
-                    <h2 class="main-title">Издание Limited Edition</h2>
-                    <p class="main-work">Дизайн</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/marketing2.jpg" alt="бирка" width="370" height="294" />
-                    <h2 class="main-title">Проект LAB</h2>
-                    <p class="main-work">Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <img src="./images2/app3.jpg" alt="ноутбук" width="370" height="294" />
-                    <h2 class="main-title">Growing Business</h2>
-                    <p class="main-work">Приложение</p>
-                </a>
-            </li>
-
-
-        </ul>
+        <div class="container main-content">
+            <ul class="button-list">
+                <li><button type="button" class="button-all button">Все</button></li>
+                <li><button type="button" class="all-web button">Веб-сайты</button></li>
+                <li><button type="button" class="apps button">Приложения</button></li>
+                <li><button type="button" class="design button">Дизайн</button></li>
+                <li><button type="button" class="marketing button">Маркетинг</button></li>
+            </ul>
+            <h1 class="visually-hidden">Ссылки на страницы</h1>
+            <ul class="main-img">
+                <div class="main-container">
+                    <div class="flex-container">
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/web-site1.jpg" alt="страница сайта" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Технокряк</h2>
+                                        <p class="main-work">Веб-сайт</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/design1.jpg" alt="игра баскетбол" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
+                                        <p class="main-work">Дизайн</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/app1.jpg" alt="лого ресторана" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Ресторан Seafood</h2>
+                                        <p class="main-work">Приложение</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/marketing1.jpg" alt="наушники" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Проект Prime</h2>
+                                        <p class="main-work">Маркетинг</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/app2.jpg" alt="две коробки" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Проект Boxes</h2>
+                                        <p class="main-work">Приложение</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/web-site2.jpg" alt="монитор" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Inspiration has no Borders</h2>
+                                        <p class="main-work">Веб-сайт</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/design2.jpg" alt="журнал" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Издание Limited Edition</h2>
+                                        <p class="main-work">Дизайн</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/marketing2.jpg" alt="бирка" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Проект LAB</h2>
+                                        <p class="main-work">Маркетинг</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="flex-element">
+                            <li class="item">
+                                <a>
+                                    <img src="./images2/app3.jpg" alt="ноутбук" width="370" height="294" />
+                                    <div class="item-content">
+                                        <h2 class="main-title">Growing Business</h2>
+                                        <p class="main-work">Приложение</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
     </main>    
 
     <!-- Section-5 -->
     <footer class="footer">
-        <a href="./index.html" class="logo link">Web<span class="accent2">Studio</span></a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/botk4UzgwyVzbYNd8" target="_blank" rel="noopener noreferrer" class="footer-address link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com" class="footer-contacts link">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="footer-contacts link">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <div class="footer-logo">
+                <a href="./index.html" class="logo-foot link">Web<span class="accent2">Studio</span></a>
+            </div>
+            <address>
+                <ul>
+                    <li class="foot-details"><a href="https://goo.gl/maps/botk4UzgwyVzbYNd8" target="_blank"
+                            rel="noopener noreferrer" class="footer-address link">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="foot-details"><a href="mailto:info@example.com"
+                            class="footer-contacts link">info@example.com</a></li>
+                    <li class="foot-details"><a href="tel:+380991111111" class="footer-contacts link">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
+
 </html>

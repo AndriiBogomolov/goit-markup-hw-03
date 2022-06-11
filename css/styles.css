@@ -352,15 +352,15 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.our-advantages {
+.section-item {
     margin-right: var(--typical-gap);
 }
 
-.our-advantages:nth-child(4n) {
+.section-item:nth-child(4n) {
     margin-right: 0;
 }
 
-.our-advantages:nth-last-child(-n+4) {
+.section-item:nth-last-child(-n+4) {
     margin-bottom: 0;
 }
 

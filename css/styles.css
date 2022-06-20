@@ -199,15 +199,15 @@ ul {
 
 .button-list {
     display: flex;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
     padding-bottom: 50px;
     justify-content: center;
 }
 
 .button-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     min-width: 73px;
     height: 38px;
     cursor: pointer;
@@ -217,6 +217,10 @@ ul {
 }
 
 .all-web {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     min-width: 128px;
     height: 38px;
     cursor: pointer;
@@ -227,6 +231,10 @@ ul {
 }
 
 .apps {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     min-width: 145px;
     height: 38px;
     cursor: pointer;
@@ -237,6 +245,10 @@ ul {
 }
 
 .design {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     min-width: 103px;
     height: 38px;
     cursor: pointer;
@@ -247,6 +259,10 @@ ul {
 }
 
 .marketing {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     min-width: 130px;
     height: 38px;
     cursor: pointer;
@@ -311,8 +327,7 @@ ul {
 }
 
 .item-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px; 24px;
     border-bottom: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
@@ -434,7 +449,7 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
     color: var(--accent-color);
 }
@@ -476,7 +491,7 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 

@@ -327,7 +327,7 @@ ul {
 }
 
 .item-content {
-    padding: 20px; 24px;
+    padding: 20px 24px;
     border-bottom: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
